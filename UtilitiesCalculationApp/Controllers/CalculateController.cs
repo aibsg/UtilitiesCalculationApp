@@ -39,7 +39,7 @@ public class CalculateController : ControllerBase
     }
 
     [HttpPut]
-    public async Task<IActionResult> CalculateElectricity([FromBody] CalculateUtilitiesRequest request)
+    public async Task<IActionResult> SaveReadings([FromBody] CalculateUtilitiesRequest request)
     {
         try
         {
